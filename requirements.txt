@@ -1,0 +1,12 @@
+
+beautifulsoup4
+requests
+selenium
+boto3
+webdriver_manager
+tqdm
+urllib3
+lxml
+
+
+
