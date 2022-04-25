@@ -20,4 +20,4 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT [ "python3" ]
 
-CMD ["./Data-Collection-Pipeline/scraper.py"]
+CMD [".\Data-Collection-Pipeline\scraper.py"]
