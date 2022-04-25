@@ -18,6 +18,6 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "python3" ]
+ENTRYPOINT ["/bin/bash"]
 
 CMD [".\Data-Collection-Pipeline\scraper.py"]
