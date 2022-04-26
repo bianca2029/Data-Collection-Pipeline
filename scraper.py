@@ -67,7 +67,7 @@ class Scraper:
         
         # DATABASE_TYPE = 'postgresql'
         # DBAPI = 'psycopg2'
-        # HOST = 'deliveroo-database.cvd904xszemu.eu-west-2.rds.amazonaws.com'
+        # HOST = ''
         # USER = 'postgres'
         # PASSWORD = 'postgres'
         # DATABASE = 'postgres'
