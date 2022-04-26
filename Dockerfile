@@ -16,8 +16,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-<<<<<<< HEAD
 ENTRYPOINT python3 scraper.py
-=======
-ENTRYPOINT python3 scraper.py
->>>>>>> bee37374ff612c69c1c7653ed8b4c3b1d4d17f50
