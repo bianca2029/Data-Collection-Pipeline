@@ -12,12 +12,8 @@ RUN apt-get install -yqq unzip && \
  unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 
 
-
-
 COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["/bin/bash"]
-
-CMD [".\Data-Collection-Pipeline\scraper.py"]
+ENTRYPOINT python3 scraper.py
